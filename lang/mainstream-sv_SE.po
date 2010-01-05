@@ -1,0 +1,361 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Patrik Larsson <hqmstudios@plmedia.se>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: mainstream/archive.php:24
+msgid "% Comments"
+msgstr "% Kommentarer"
+
+#. Text in function
+#: mainstream/comments.php:81
+#: mainstream/comments.php:84
+#: mainstream/comments-legacy.php:141
+#: mainstream/comments-legacy.php:144
+msgid "(required)"
+msgstr "(nödvändigt)"
+
+#. Text in function
+#: mainstream/archive.php:24
+msgid "0 Comments"
+msgstr "0 Kommentarer"
+
+#. Text in function
+#: mainstream/archive.php:24
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#. Text in echo
+#: mainstream/index.php:21
+msgid "ALL POSTS"
+msgstr "ALLA POSTER"
+
+#. Text in function
+#: mainstream/includes/theme-widgets.php:84
+msgid "Account:"
+msgstr "Konto:"
+
+#. Text in echo
+#: mainstream/archive.php:7
+#: mainstream/archive.php:10
+#: mainstream/archive.php:13
+#: mainstream/archive.php:16
+#: mainstream/header.php:11
+#: mainstream/header.php:12
+msgid "Archive"
+msgstr "Arkiv"
+
+#. Text in echo
+#: mainstream/template-archives.php:13
+msgid "Archives"
+msgstr "Arkiv"
+
+#. Text in echo
+#: mainstream/header.php:8
+msgid "Author Archives"
+msgstr "Författar Arkiv"
+
+#. Text in echo
+#: mainstream/index.php:23
+msgid "BE MY FRIEND ON FACEBOOK:"
+msgstr "BLI MIN VÄN PÅ FACEBOOK:"
+
+#. Text in echo
+#: mainstream/template-sitemap.php:21
+msgid "Blog / News Categories"
+msgstr "Blogg / Nyhets Kategori"
+
+#. Text in echo
+#: mainstream/template-sitemap.php:25
+msgid "Blog / News Monthly Archives"
+msgstr "Blogg / Nyhets Månatligt Arkiv"
+
+#. Text in echo
+#: mainstream/comments.php:48
+msgid "Comments are closed."
+msgstr "Kommentarer är stängda."
+
+#. Text in echo
+#: mainstream/template-archives.php:27
+msgid "Categories"
+msgstr "Kategorier"
+
+#. Text in echo
+#: mainstream/comments-legacy.php:37
+msgid "Comments For This Post"
+msgstr "Kommentarer För Detta Inlägg"
+
+#. Text in echo
+#: mainstream/comments-legacy.php:117
+msgid "Comments are closed."
+msgstr "Kommentarer är stängda."
+
+#. Text in echo
+#: mainstream/search.php:30
+#: mainstream/archive.php:43
+msgid "Continue Reading"
+msgstr "Fortsätt Läsa"
+
+#. Text in echo
+#: mainstream/includes/theme-comments.php:25
+msgid "Direct link to this comment"
+msgstr "Direkt länk till denna kommentar"
+
+#. Text in echo
+#: mainstream/page.php:23
+#: mainstream/single.php:35
+#: mainstream/404.php:7
+#: mainstream/search.php:46
+#: mainstream/template-fullwidth.php:29
+#: mainstream/archive.php:59
+msgid "Error 404"
+msgstr ""
+
+#. Text in echo
+#: mainstream/index.php:22
+msgid "FOLLOW ME ON TWITTER:"
+msgstr "FÖLJ MIG PÅ TWITTER:"
+
+#. Text in echo
+#: mainstream/includes/theme-widgets.php:14
+msgid "Flickr Photos"
+msgstr "Flickr Foton"
+
+#. Text in echo
+#: mainstream/index.php:7
+msgid "Hi! Welcome..."
+msgstr "Hej! Välkommen..."
+
+#. Text in echo
+#: mainstream/comments-legacy.php:126
+msgid "Leave a Reply"
+msgstr "Lämna ett Svar"
+
+#. Text in echo
+#: mainstream/comments.php:76
+#: mainstream/comments-legacy.php:136
+msgid "Logged in as"
+msgstr "Inloggad som"
+
+#. Text in echo
+#: mainstream/comments.php:76
+#: mainstream/comments-legacy.php:136
+msgid "Logout &raquo;"
+msgstr "Logga ut &raquo;"
+
+#. Text in echo
+#: mainstream/comments.php:84
+#: mainstream/comments-legacy.php:144
+msgid "Mail (will not be published)"
+msgstr "Mail (publiceras inte)"
+
+#. Text in echo
+#: mainstream/template-archives.php:33
+msgid "Monthly Archives"
+msgstr "Månatligt Arkiv"
+
+#. Text in echo
+#: mainstream/comments.php:81
+#: mainstream/comments-legacy.php:141
+msgid "Name"
+msgstr "Namn"
+
+#. Text in echo
+#: mainstream/template-sitemap.php:17
+msgid "Pages"
+msgstr "Sidor"
+
+#. Text in echo
+#: mainstream/archive.php:43
+msgid "Read the full entry"
+msgstr "Läs hela inlägget"
+
+#. Text in echo
+#: mainstream/index.php:21
+msgid "SUBSCRIBE TO OUR FEEDS:"
+msgstr "PRENUMERERA PÅ VÅRA RSS FLÖDEN:"
+
+#. Text in echo
+#: mainstream/footer.php:21
+msgid "Say something clever here. Or not. You decide."
+msgstr "Säg något smart här. Eller inte. Du bestämmer."
+
+#. Text in echo
+#: mainstream/comments-legacy.php:87
+msgid "Says:"
+msgstr "Säger:"
+
+#. Text in echo
+#: mainstream/search-form.php:3
+msgid "Search"
+msgstr "Sök"
+
+#. Text in echo
+#: mainstream/header.php:7
+msgid "Search Results"
+msgstr "Sök Resultat"
+
+#. Text in echo
+#: mainstream/search.php:5
+msgid "Search results for"
+msgstr "Sök resultat för"
+
+#. Text in echo
+#: mainstream/search-form.php:7
+#: mainstream/search-form.php:8
+msgid "Search..."
+msgstr "Sök..."
+
+#. Text in function
+#: mainstream/includes/theme-widgets.php:84
+msgid "Show:"
+msgstr "Visa:"
+
+#. Text in echo
+#: mainstream/template-sitemap.php:13
+msgid "Sitemap"
+msgstr "Sidkarta"
+
+#. Text in echo
+#: mainstream/includes/theme-widgets.php:69
+msgid "Sponsors"
+msgstr "Sponsorer"
+
+#. Text in echo
+#: mainstream/comments.php:95
+#: mainstream/comments-legacy.php:155
+msgid "Submit Comment"
+msgstr "Skicka Kommentar"
+
+#. Text in echo
+#: mainstream/header.php:13
+msgid "Tag Archive"
+msgstr "Tag Arkiv"
+
+#. Text in echo
+#: mainstream/template-archives.php:17
+msgid "The Last 30 Posts"
+msgstr "30 Senaste Inläggen"
+
+#. Text in echo
+#: mainstream/page.php:27
+#: mainstream/single.php:39
+#: mainstream/404.php:11
+#: mainstream/index.php:75
+#: mainstream/search.php:50
+#: mainstream/template-fullwidth.php:33
+#: mainstream/archive.php:63
+msgid "The page you are looking for does not exist. Please check the URL for typing errors, or"
+msgstr "Sidan du försöker visa existerar inte. Var vänlig kolla URL efter stavfel, eller"
+
+#. Text in echo
+#: mainstream/comments.php:7
+#: mainstream/comments-legacy.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Inlägget är lösenords skyddat. Skriv in lösenord för att visa kommentarer."
+
+#. Text in function
+#: mainstream/includes/theme-widgets.php:84
+msgid "Title:"
+msgstr "Titel:"
+
+#. Text in echo
+#: mainstream/comments-legacy.php:79
+msgid "Trackbacks For This Post"
+msgstr "Trackback För Detta Inlägg"
+
+#. Text in echo
+#: mainstream/comments.php:33
+msgid "Trackbacks/Pingbacks"
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments.php:87
+#: mainstream/comments-legacy.php:147
+msgid "Website"
+msgstr "Hemsida"
+
+#. Text in echo
+#: mainstream/footer.php:23
+msgid "WooThemes"
+msgstr "WooThemes"
+
+#. Text in echo
+#: mainstream/footer.php:23
+msgid "WooThemes Logo"
+msgstr "WooThemes Logo"
+
+#. Text in echo
+#: mainstream/comments.php:68
+#: mainstream/comments-legacy.php:129
+msgid "You must be"
+msgstr "Du måste vara"
+
+#. Text in echo
+#: mainstream/index.php:11
+msgid "You need to add content in the \"About You\" field on the Mainstream Options tab in the WP backend."
+msgstr "Du måste lägga till information i \"Om Dig\" fältet på Mainstream Options tab inne i WP backend."
+
+#. Text in function
+#: mainstream/includes/theme-comments.php:38
+#: mainstream/comments-legacy.php:57
+#: mainstream/comments-legacy.php:89
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar väntar moderation"
+
+#. Text in function
+#: mainstream/search.php:5
+msgid "\\'%s\\'"
+msgstr ""
+
+#. Text in echo
+#: mainstream/page.php:27
+#: mainstream/single.php:39
+#: mainstream/404.php:11
+#: mainstream/index.php:75
+#: mainstream/search.php:50
+#: mainstream/template-fullwidth.php:33
+#: mainstream/archive.php:63
+msgid "and start over"
+msgstr "och börja om"
+
+#. Text in echo
+#: mainstream/comments-legacy.php:61
+msgid "at"
+msgstr ""
+
+#. Text in echo
+#: mainstream/template-archives.php:23
+msgid "comments"
+msgstr "kommentarer"
+
+#. Text in echo
+#: mainstream/page.php:27
+#: mainstream/single.php:39
+#: mainstream/404.php:11
+#: mainstream/index.php:75
+#: mainstream/search.php:50
+#: mainstream/template-fullwidth.php:33
+#: mainstream/archive.php:63
+msgid "head back home"
+msgstr "gå tillbaka hem"
+
+#. Text in echo
+#: mainstream/comments.php:68
+#: mainstream/comments-legacy.php:129
+msgid "logged in"
+msgstr "inloggad"
+
+#. Text in echo
+#: mainstream/comments.php:68
+#: mainstream/comments-legacy.php:129
+msgid "to post a comment."
+msgstr "att posta en kommentar."
+

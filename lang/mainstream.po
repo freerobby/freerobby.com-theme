@@ -1,0 +1,354 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: mainstream/archive.php:24
+msgid "% Comments"
+msgstr ""
+
+#. Text in function
+#: mainstream/comments.php:81
+#: mainstream/comments.php:84
+#: mainstream/comments-legacy.php:141
+#: mainstream/comments-legacy.php:144
+msgid "(required)"
+msgstr ""
+
+#. Text in function
+#: mainstream/archive.php:24
+msgid "0 Comments"
+msgstr ""
+
+#. Text in function
+#: mainstream/archive.php:24
+msgid "1 Comment"
+msgstr ""
+
+#. Text in echo
+#: mainstream/index.php:21
+msgid "ALL POSTS"
+msgstr ""
+
+#. Text in function
+#: mainstream/includes/theme-widgets.php:84
+msgid "Account:"
+msgstr ""
+
+#. Text in echo
+#: mainstream/archive.php:7
+#: mainstream/archive.php:10
+#: mainstream/archive.php:13
+#: mainstream/archive.php:16
+#: mainstream/header.php:11
+#: mainstream/header.php:12
+msgid "Archive"
+msgstr ""
+
+#. Text in echo
+#: mainstream/template-archives.php:13
+msgid "Archives"
+msgstr ""
+
+#. Text in echo
+#: mainstream/header.php:8
+msgid "Author Archives"
+msgstr ""
+
+#. Text in echo
+#: mainstream/index.php:23
+msgid "BE MY FRIEND ON FACEBOOK:"
+msgstr ""
+
+#. Text in echo
+#: mainstream/template-sitemap.php:21
+msgid "Blog / News Categories"
+msgstr ""
+
+#. Text in echo
+#: mainstream/template-sitemap.php:25
+msgid "Blog / News Monthly Archives"
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments.php:48
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in echo
+#: mainstream/template-archives.php:27
+msgid "Categories"
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments-legacy.php:37
+msgid "Comments For This Post"
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments-legacy.php:117
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in echo
+#: mainstream/search.php:30
+#: mainstream/archive.php:43
+msgid "Continue Reading"
+msgstr ""
+
+#. Text in echo
+#: mainstream/includes/theme-comments.php:25
+msgid "Direct link to this comment"
+msgstr ""
+
+#. Text in echo
+#: mainstream/page.php:23
+#: mainstream/single.php:35
+#: mainstream/404.php:7
+#: mainstream/search.php:46
+#: mainstream/template-fullwidth.php:29
+#: mainstream/archive.php:59
+msgid "Error 404"
+msgstr ""
+
+#. Text in echo
+#: mainstream/index.php:22
+msgid "FOLLOW ME ON TWITTER:"
+msgstr ""
+
+#. Text in echo
+#: mainstream/includes/theme-widgets.php:14
+msgid "Flickr Photos"
+msgstr ""
+
+#. Text in echo
+#: mainstream/index.php:7
+msgid "Hi! Welcome..."
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments-legacy.php:126
+msgid "Leave a Reply"
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments.php:76
+#: mainstream/comments-legacy.php:136
+msgid "Logged in as"
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments.php:76
+#: mainstream/comments-legacy.php:136
+msgid "Logout &raquo;"
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments.php:84
+#: mainstream/comments-legacy.php:144
+msgid "Mail (will not be published)"
+msgstr ""
+
+#. Text in echo
+#: mainstream/template-archives.php:33
+msgid "Monthly Archives"
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments.php:81
+#: mainstream/comments-legacy.php:141
+msgid "Name"
+msgstr ""
+
+#. Text in echo
+#: mainstream/template-sitemap.php:17
+msgid "Pages"
+msgstr ""
+
+#. Text in echo
+#: mainstream/archive.php:43
+msgid "Read the full entry"
+msgstr ""
+
+#. Text in echo
+#: mainstream/index.php:21
+msgid "SUBSCRIBE TO OUR FEEDS:"
+msgstr ""
+
+#. Text in echo
+#: mainstream/footer.php:21
+msgid "Say something clever here. Or not. You decide."
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments-legacy.php:87
+msgid "Says:"
+msgstr ""
+
+#. Text in echo
+#: mainstream/search-form.php:3
+msgid "Search"
+msgstr ""
+
+#. Text in echo
+#: mainstream/header.php:7
+msgid "Search Results"
+msgstr ""
+
+#. Text in echo
+#: mainstream/search.php:5
+msgid "Search results for"
+msgstr ""
+
+#. Text in echo
+#: mainstream/search-form.php:7
+#: mainstream/search-form.php:8
+msgid "Search..."
+msgstr ""
+
+#. Text in function
+#: mainstream/includes/theme-widgets.php:84
+msgid "Show:"
+msgstr ""
+
+#. Text in echo
+#: mainstream/template-sitemap.php:13
+msgid "Sitemap"
+msgstr ""
+
+#. Text in echo
+#: mainstream/includes/theme-widgets.php:69
+msgid "Sponsors"
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments.php:95
+#: mainstream/comments-legacy.php:155
+msgid "Submit Comment"
+msgstr ""
+
+#. Text in echo
+#: mainstream/header.php:13
+msgid "Tag Archive"
+msgstr ""
+
+#. Text in echo
+#: mainstream/template-archives.php:17
+msgid "The Last 30 Posts"
+msgstr ""
+
+#. Text in echo
+#: mainstream/page.php:27
+#: mainstream/single.php:39
+#: mainstream/404.php:11
+#: mainstream/index.php:75
+#: mainstream/search.php:50
+#: mainstream/template-fullwidth.php:33
+#: mainstream/archive.php:63
+msgid "The page you are looking for does not exist. Please check the URL for typing errors, or"
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments.php:7
+#: mainstream/comments-legacy.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#. Text in function
+#: mainstream/includes/theme-widgets.php:84
+msgid "Title:"
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments-legacy.php:79
+msgid "Trackbacks For This Post"
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments.php:33
+msgid "Trackbacks/Pingbacks"
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments.php:87
+#: mainstream/comments-legacy.php:147
+msgid "Website"
+msgstr ""
+
+#. Text in echo
+#: mainstream/footer.php:23
+msgid "WooThemes"
+msgstr ""
+
+#. Text in echo
+#: mainstream/footer.php:23
+msgid "WooThemes Logo"
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments.php:68
+#: mainstream/comments-legacy.php:129
+msgid "You must be"
+msgstr ""
+
+#. Text in echo
+#: mainstream/index.php:11
+msgid "You need to add content in the \"About You\" field on the Mainstream Options tab in the WP backend."
+msgstr ""
+
+#. Text in function
+#: mainstream/includes/theme-comments.php:38
+#: mainstream/comments-legacy.php:57
+#: mainstream/comments-legacy.php:89
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in function
+#: mainstream/search.php:5
+msgid "\\'%s\\'"
+msgstr ""
+
+#. Text in echo
+#: mainstream/page.php:27
+#: mainstream/single.php:39
+#: mainstream/404.php:11
+#: mainstream/index.php:75
+#: mainstream/search.php:50
+#: mainstream/template-fullwidth.php:33
+#: mainstream/archive.php:63
+msgid "and start over"
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments-legacy.php:61
+msgid "at"
+msgstr ""
+
+#. Text in echo
+#: mainstream/template-archives.php:23
+msgid "comments"
+msgstr ""
+
+#. Text in echo
+#: mainstream/page.php:27
+#: mainstream/single.php:39
+#: mainstream/404.php:11
+#: mainstream/index.php:75
+#: mainstream/search.php:50
+#: mainstream/template-fullwidth.php:33
+#: mainstream/archive.php:63
+msgid "head back home"
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments.php:68
+#: mainstream/comments-legacy.php:129
+msgid "logged in"
+msgstr ""
+
+#. Text in echo
+#: mainstream/comments.php:68
+#: mainstream/comments-legacy.php:129
+msgid "to post a comment."
+msgstr ""
