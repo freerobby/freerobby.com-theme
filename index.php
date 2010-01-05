@@ -8,7 +8,7 @@
 				
 				<p>
 					<?php if ( get_option( 'woo_profile' ) <> "" ) { ?><img src="<?php echo get_option( 'woo_profile' ); ?>" alt="<?php bloginfo('title'); ?>" /><?php } ?>
-					<?php if ( get_option( 'woo_about' ) <> "" ) { echo get_option( 'woo_about' ); } else { ?><?php _e('You need to add content in the "About You" field on the Mainstream Options tab in the WP backend.',woothemes); ?><?php } ?>
+					<?php if ( get_option( 'woo_about' ) <> "" ) { echo stripslashes(get_option( 'woo_about' )); } else { ?><?php _e('You need to add content in the "About You" field on the Mainstream Options tab in the WP backend.',woothemes); ?><?php } ?>
 				</p>
 				
 				<div class="fold"></div>
