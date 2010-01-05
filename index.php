@@ -18,7 +18,7 @@
 			<div id="connect">
 			
 				<ul>
-					<li><a href="<?php if ( get_option('woo_feedburner_url') <> "" ) { echo get_option('woo_feedburner_url'); } else { echo get_bloginfo_rss('rss2_url'); } ?>" title="RSS"><img src="<?php bloginfo('template_directory'); ?>/images/ico-rss.png" alt="RSS icon" /><span><?php _e('SUBSCRIBE TO OUR FEEDS:',woothemes); ?></span><?php _e('ALL POSTS',woothemes); ?></a></li>
+					<li><a href="<?php if ( get_option('woo_feedburner_url') <> "" ) { echo get_option('woo_feedburner_url'); } else { echo get_bloginfo_rss('rss2_url'); } ?>" title="RSS"><img src="<?php bloginfo('template_directory'); ?>/images/ico-rss.png" alt="RSS icon" /><span><?php _e('SUBSCRIBE TO MY FEED:',woothemes); ?></span><?php _e('ALL POSTS',woothemes); ?></a></li>
 					<?php if ( get_option( 'woo_twitter' ) <> "" ) { ?><li><a href="http://twitter.com/<?php echo get_option( 'woo_twitter' ); ?>" title="Twitter"><img src="<?php bloginfo('template_directory'); ?>/images/ico-twitter.png" alt="Twitter icon" /><span><?php _e('FOLLOW ME ON TWITTER:',woothemes); ?></span>@<?php echo get_option( 'woo_twitter' ); ?></a></li><?php } ?>
 					<?php if ( get_option( 'woo_facebook' ) <> "" ) { ?><li><a href="http://facebook.com/<?php echo get_option( 'woo_facebook' ); ?>" title="Facebook"><img src="<?php bloginfo('template_directory'); ?>/images/ico-facebook.png" alt="Facebook icon" /><span><?php _e('BE MY FRIEND ON FACEBOOK:',woothemes); ?></span><?php echo get_option( 'woo_facebook' ); ?></a></li><?php } ?>
 				</ul>
