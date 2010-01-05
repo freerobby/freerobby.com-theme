@@ -4,7 +4,7 @@
 		
 			<div id="about">
 			
-				<h2><?php _e('Hi! Welcome...',woothemes); ?></h2>
+				<h2><?php _e('Hi! I\'m Robby.',woothemes); ?></h2>
 				
 				<p>
 					<?php if ( get_option( 'woo_profile' ) <> "" ) { ?><img src="<?php echo get_option( 'woo_profile' ); ?>" alt="<?php bloginfo('title'); ?>" /><?php } ?>
