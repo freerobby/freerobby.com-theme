@@ -18,7 +18,7 @@
 			?>
 		</ul>
 		
-		<p>&copy; <?php bloginfo('title'); ?>. <?php _e('Say something clever here. Or not. You decide.',woothemes); ?></p>
+		<p>&copy; <?php bloginfo('title'); ?>. <?php _e('You may download my public RSA key <a href="/wp-content/uploads/id_rsa.pub">here</a>.',woothemes); ?></p>
 		
 		<p><a href="http://woothemes.com" title="<?php _e('WooThemes',woothemes); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/woothemes.png" alt="<?php _e('WooThemes Logo',woothemes); ?>" /></a></p>
 	
