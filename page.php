@@ -31,6 +31,8 @@
 				</div><!-- /.post -->
 				
 			<?php endif; ?>
+			
+			<?php comments_template(); ?>
 		
 		</div><!-- /#content -->
 		
