@@ -130,7 +130,7 @@ function widget_Twidget_init() {
 
 		// start
 		echo '<div id="twitter" class="widget">';
-		echo '<h3>Twitter<span class="fold">&nbsp;</span></h3>';              
+		echo '<h3>'.$title.'<span class="fold">&nbsp;</span></h3>';              
 		echo '<ul id="twitter_update_list"><li></li></ul>
 		      <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>';
 		echo '<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/'.$account.'.json?callback=twitterCallback2&amp;count='.$show.'"></script>';
