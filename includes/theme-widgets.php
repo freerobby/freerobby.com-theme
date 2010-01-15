@@ -134,7 +134,7 @@ function widget_Twidget_init() {
 		echo '<ul id="twitter_update_list"><li></li></ul>
 		      <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>';
 		echo '<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/'.$account.'.json?callback=twitterCallback2&amp;count='.$show.'"></script>';
-		echo '<span class="website"><a href="http://www.twitter.com/'.$account.'/" title="Follow us on Twitter">Follow us on Twitter</a></span></div>';
+		echo '</div>';
 
 
 		// echo widget closing tag
