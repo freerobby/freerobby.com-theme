@@ -29,6 +29,12 @@
 	<!--[if IE 7]>
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory'); ?>/css/ie7.css" />
 	<![endif]-->
+	
+	<link rel="openid.server" href="http://www.myopenid.com/server" />
+  <link rel="openid.delegate" href="http://robbygrossman.myopenid.com/" />
+  <link rel="openid2.local_id" href="http://robbygrossman.myopenid.com" />
+  <link rel="openid2.provider" href="http://www.myopenid.com/server" />
+  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=robbygrossman.myopenid.com" />
        
     <?php if ( is_single() ) wp_enqueue_script( 'comment-reply' ); ?>
     <?php wp_head(); ?>
