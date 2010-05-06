@@ -274,7 +274,7 @@ msgstr "Bu yazı için Geri izlemeler"
 #. Text in echo
 #: mainstream/comments.php:33
 msgid "Trackbacks/Pingbacks"
-msgstr "Geri izlemeler/Pingbacks"
+msgstr "Gelen Bağlantılar"
 
 #. Text in echo
 #: mainstream/comments.php:87
@@ -296,7 +296,7 @@ msgstr "WooThemes Logo"
 #: mainstream/comments.php:68
 #: mainstream/comments-legacy.php:129
 msgid "You must be"
-msgstr "zorundasınız"
+msgstr "Yorum yazmak için"
 
 #. Text in echo
 #: mainstream/index.php:11
@@ -329,7 +329,7 @@ msgstr "ve yeniden başlayın"
 #. Text in echo
 #: mainstream/comments-legacy.php:61
 msgid "at"
-msgstr "-"
+msgstr "saat"
 
 #. Text in echo
 #: mainstream/template-archives.php:23
@@ -351,11 +351,11 @@ msgstr "anasayfaya dönün"
 #: mainstream/comments.php:68
 #: mainstream/comments-legacy.php:129
 msgid "logged in"
-msgstr "giriş yapmış"
+msgstr "Giriş"
 
 #. Text in echo
 #: mainstream/comments.php:68
 #: mainstream/comments-legacy.php:129
 msgid "to post a comment."
-msgstr "yorum yazmak için"
+msgstr "yapmalısınız."
 

@@ -2,7 +2,7 @@
 		
 		<div id="content">
 			
-			<h2 class="result_heading"><?php _e('Search results for',woothemes); ?> "<?php printf(__('\'%s\''), $s) ?>"</h2>
+			<h2 class="result_heading"><?php _e('Search results for',woothemes); ?> "<?php printf(the_search_query()); ?>"</h2>
 		
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		

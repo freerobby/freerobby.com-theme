@@ -1,74 +1,193 @@
 <?php
-// Options panel stylesheet
-function woothemes_admin_head() { 
-    echo '<link rel="stylesheet" type="text/css" href="'.get_bloginfo('template_directory').'/functions/admin-style.css" media="screen" />';
+
+/*-----------------------------------------------------------------------------------
+
+TABLE OF CONTENTS
+
+- Show Options Panel after activate
+- Admin Backend
+	- Tweaked the message on theme activate
+- Theme Header ouput - wp_head()
+	- Styles
+	- Favicon
+	- Decode	
+	- Localization
+	- Date Format
+	- woo_head_css
+- Output CSS from standarized options
+	- Text title
+	- Custom.css
+
+-----------------------------------------------------------------------------------*/
+
+define('THEME_FRAMEWORK','woothemes');
+
+/*-----------------------------------------------------------------------------------*/
+/* Add default options and show Options Panel after activate  */
+/*-----------------------------------------------------------------------------------*/
+if (is_admin() && isset($_GET['activated'] ) && $pagenow == "themes.php" ) {
+
+	//Call action that sets
+	add_action('admin_head','woo_option_setup');
+	
+	//Do redirect
+	header( 'Location: '.admin_url().'admin.php?page=woothemes' ) ;
+	
 }
 
-// Load different stylesheet
+function woo_option_setup(){
+
+	//Update EMPTY options
+	$woo_array = array();
+	add_option('woo_options',$woo_array);
+	
+	
+	$template = get_option('woo_template');
+	$saved_options = get_option('woo_options');
+	
+	foreach($template as $option) {
+	
+			if($option['type'] != 'heading'){
+	
+				$id = $option['id'];
+				$std = $option['std'];
+				$db_option = get_option($id);
+				if(empty($db_option)){
+				
+					if(is_array($option['type'])) {
+						foreach($option['type'] as $child){
+							$id = $child['id'];
+							$std = $child['std'];
+							update_option($id,$std);
+							$woo_array[$id] = $std; }
+						
+					
+						} else {
+						update_option($id,$std);
+						$woo_array[$id] = $std;
+						}
+				
+				}
+				 else { //So just store the old values over again.
+				 	
+					$woo_array[$id] = $saved_options[$id];
+				 
+				 }
+				}
+				
+			
+	
+	}
+	update_option('woo_options',$woo_array);
+
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Admin Backend */
+/*-----------------------------------------------------------------------------------*/
+function woothemes_admin_head() { 
+	
+	//Tweaked the message on theme activate
+	?>
+    <script type="text/javascript">
+    jQuery(function(){
+    	
+        var message = '<p>This <strong>WooTheme</strong> comes with a <a href="<?php echo admin_url('admin.php?page=woothemes'); ?>">comprehensive options panel</a>. This theme also supports widgets, please visit the <a href="<?php echo admin_url('widgets.php'); ?>">widgets settings page</a> to configure them.</p>';
+    	jQuery('.themes-php #message2').html(message);
+    
+    });
+    </script>
+    <?php
+    
+    //Setup Custom Navigation Menu
+	if (function_exists('woo_custom_navigation_setup')) {
+		woo_custom_navigation_setup();
+	}
+	
+}
+
+add_action('admin_head', 'woothemes_admin_head'); 
+
+
+/*-----------------------------------------------------------------------------------*/
+/* Theme Header output - wp_head() */
+/*-----------------------------------------------------------------------------------*/
 function woothemes_wp_head() { 
-    //Styles
-     $style = $_REQUEST[style];
+    
+	//Styles
+	 if(!isset($_REQUEST['style']))
+	 	$style = ''; 
+	 else 
+     	$style = $_REQUEST['style'];
      if ($style != '') {
-          echo '<link href="'. get_bloginfo('template_directory') .'/styles/'. $style . '.css" rel="stylesheet" type="text/css" />'."\n"; 
+		  $GLOBALS['stylesheet'] = $style;
+          echo '<link href="'. get_bloginfo('template_directory') .'/styles/'. $GLOBALS['stylesheet'] . '.css" rel="stylesheet" type="text/css" />'."\n"; 
      } else { 
-          $stylesheet = get_option('woo_alt_stylesheet');
-          if($stylesheet != '')
-               echo '<link href="'. get_bloginfo('template_directory') .'/styles/'. $stylesheet .'" rel="stylesheet" type="text/css" />'."\n";         
+          $GLOBALS['stylesheet'] = get_option('woo_alt_stylesheet');
+          if($GLOBALS['stylesheet'] != '')
+               echo '<link href="'. get_bloginfo('template_directory') .'/styles/'. $GLOBALS['stylesheet'] .'" rel="stylesheet" type="text/css" />'."\n";         
           else
                echo '<link href="'. get_bloginfo('template_directory') .'/styles/default.css" rel="stylesheet" type="text/css" />'."\n";         		  
      } 
      
-      // Custom.css insert
-      echo '<link href="'. get_bloginfo('template_directory') .'/custom.css" rel="stylesheet" type="text/css" />'."\n";   
-      
-     // Favicon
-    if(get_option('woo_custom_favicon') != ''){
+	// Custom.css insert
+	echo '<link href="'. get_bloginfo('template_directory') .'/custom.css" rel="stylesheet" type="text/css" />'."\n";   
+	
+	// Favicon
+	if(get_option('woo_custom_favicon') != '') {
         echo '<link rel="shortcut icon" href="'.  get_option('woo_custom_favicon')  .'"/>'."\n";
-     }    
-     
-     // Custom CSS block in Backend
-    $custom_css = get_option('woo_custom_css');
-    if($custom_css != '')
-        {
-            $output = '<style type="text/css">'."\n";
-            $output .= $custom_css . "\n";
-            $output .= '</style>'."\n";
-            echo $output;
-        }
-        
+    }    
+            
     //Decode
-     $decode = $_REQUEST['decode'];
-     if ($decode == 'true') 
-		woo_option_output(); 
+	if(!isset($_REQUEST['decode']))
+		$decode = 'false';
+	else
+		$decode = $_REQUEST['decode'];
+		
+	if ($decode == 'true') 
+		echo '<meta name="generator" content="' . get_option('woo_settings_encode') . '" />';
 
 	// Localization
-	load_theme_textdomain(woothemes);	
+	load_theme_textdomain('woothemes');	
 	
 	// Date format
 	$GLOBALS['woodate'] = get_option('woo_date');	
 	if ( $GLOBALS['woodate'] == "" )
 		$GLOBALS['woodate'] = "d. M, Y";	
+		
+	// Output CSS from standarized options	
+	woo_head_css();
 
 }
+add_action('wp_head', 'woothemes_wp_head');
 
-// Add Encrypted setting field to footer for debug purposes
-function woo_option_output(){
 
-    $data = get_option('woo_settings_encode');
-    echo '<meta name="generator" content="' . $data . '" />';
+/*-----------------------------------------------------------------------------------*/
+/* Output CSS from standarized options */
+/*-----------------------------------------------------------------------------------*/
+function woo_head_css() {
+
+	$output = '';
+	$text_title = get_option('woo_texttitle');
+    $custom_css = get_option('woo_custom_css');
+
+	// Add CSS to output
+	if ($text_title == "true") {
+		$output .= '#logo img { display:none; }' . "\n";
+		$output .= '#logo .site-title, #logo .site-description { display:block; } ' . "\n";
+	} 
+	
+	if ($custom_css <> '') {
+		$output .= $custom_css . "\n";
+	}
+	
+	// Output styles
+	if ($output <> '') {
+		$output = "<!-- Woo Styling -->\n<style type=\"text/css\">\n" . $output . "</style>\n";
+		echo $output;
+	}
 
 }
-
-
-// Use legacy comments on versions before WP 2.7
-add_filter('comments_template', 'legacy_comments');
-function legacy_comments($file) {
-    if(!function_exists('wp_list_comments')) : // WP 2.7-only check
-        $file = TEMPLATEPATH . '/comments-legacy.php';
-    endif;
-    return $file;
-}
-
-
 
 ?>

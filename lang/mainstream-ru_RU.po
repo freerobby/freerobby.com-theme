@@ -1,0 +1,362 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Eduard Luhtonen <eduard.luhtonen@wippies.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#. Text in function
+#: mainstream/archive.php:24
+msgid "% Comments"
+msgstr "% комментариев"
+
+#. Text in function
+#: mainstream/comments.php:81
+#: mainstream/comments.php:84
+#: mainstream/comments-legacy.php:141
+#: mainstream/comments-legacy.php:144
+msgid "(required)"
+msgstr "(обязателен)"
+
+#. Text in function
+#: mainstream/archive.php:24
+msgid "0 Comments"
+msgstr "0 комментариев"
+
+#. Text in function
+#: mainstream/archive.php:24
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#. Text in echo
+#: mainstream/index.php:21
+msgid "ALL POSTS"
+msgstr "ВСЕ СООБЩЕНИЯ"
+
+#. Text in function
+#: mainstream/includes/theme-widgets.php:84
+msgid "Account:"
+msgstr "Учетная запись:"
+
+#. Text in echo
+#: mainstream/archive.php:7
+#: mainstream/archive.php:10
+#: mainstream/archive.php:13
+#: mainstream/archive.php:16
+#: mainstream/header.php:11
+#: mainstream/header.php:12
+msgid "Archive"
+msgstr "Архив"
+
+#. Text in echo
+#: mainstream/template-archives.php:13
+msgid "Archives"
+msgstr "Архивы"
+
+#. Text in echo
+#: mainstream/header.php:8
+msgid "Author Archives"
+msgstr "Архивы автора"
+
+#. Text in echo
+#: mainstream/index.php:23
+msgid "BE MY FRIEND ON FACEBOOK:"
+msgstr "СТАНЬТЕ МОИМ ДРУГОМ В FACEBOOK:"
+
+#. Text in echo
+#: mainstream/template-sitemap.php:21
+msgid "Blog / News Categories"
+msgstr "Блог / Новые разделы"
+
+#. Text in echo
+#: mainstream/template-sitemap.php:25
+msgid "Blog / News Monthly Archives"
+msgstr "Блог / Архивы новостей по месяцам"
+
+#. Text in echo
+#: mainstream/comments.php:48
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#. Text in echo
+#: mainstream/template-archives.php:27
+msgid "Categories"
+msgstr "Разделы"
+
+#. Text in echo
+#: mainstream/comments-legacy.php:37
+msgid "Comments For This Post"
+msgstr "Комментарии на данный пост"
+
+#. Text in echo
+#: mainstream/comments-legacy.php:117
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#. Text in echo
+#: mainstream/search.php:30
+#: mainstream/archive.php:43
+msgid "Continue Reading"
+msgstr "Продолжить чтение"
+
+#. Text in echo
+#: mainstream/includes/theme-comments.php:25
+msgid "Direct link to this comment"
+msgstr "Прямая ссылка на этот комментарий"
+
+#. Text in echo
+#: mainstream/page.php:23
+#: mainstream/single.php:35
+#: mainstream/404.php:7
+#: mainstream/search.php:46
+#: mainstream/template-fullwidth.php:29
+#: mainstream/archive.php:59
+msgid "Error 404"
+msgstr "Обишка 404"
+
+#. Text in echo
+#: mainstream/index.php:22
+msgid "FOLLOW ME ON TWITTER:"
+msgstr "СЛЕДИТЕ ЗА МНОЙ НА ТВИТТЕРЕ"
+
+#. Text in echo
+#: mainstream/includes/theme-widgets.php:14
+msgid "Flickr Photos"
+msgstr "Фотографии на Flickr"
+
+#. Text in echo
+#: mainstream/index.php:7
+msgid "Hi! Welcome..."
+msgstr "Привет! Добро пожаловать..."
+
+#. Text in echo
+#: mainstream/comments-legacy.php:126
+msgid "Leave a Reply"
+msgstr "Написать ответ"
+
+#. Text in echo
+#: mainstream/comments.php:76
+#: mainstream/comments-legacy.php:136
+msgid "Logged in as"
+msgstr "Вы вошли как"
+
+#. Text in echo
+#: mainstream/comments.php:76
+#: mainstream/comments-legacy.php:136
+msgid "Logout &raquo;"
+msgstr "Выйти &raquo;"
+
+#. Text in echo
+#: mainstream/comments.php:84
+#: mainstream/comments-legacy.php:144
+msgid "Mail (will not be published)"
+msgstr "Почта (не будет опубликовано)"
+
+#. Text in echo
+#: mainstream/template-archives.php:33
+msgid "Monthly Archives"
+msgstr "Архив по месяцам"
+
+#. Text in echo
+#: mainstream/comments.php:81
+#: mainstream/comments-legacy.php:141
+msgid "Name"
+msgstr "Имя"
+
+#. Text in echo
+#: mainstream/template-sitemap.php:17
+msgid "Pages"
+msgstr "Старницы"
+
+#. Text in echo
+#: mainstream/archive.php:43
+msgid "Read the full entry"
+msgstr "Читайте полную запись"
+
+#. Text in echo
+#: mainstream/index.php:21
+msgid "SUBSCRIBE TO OUR FEEDS:"
+msgstr "ПОДПИСКА НА НАШ КАНАЛ:"
+
+#. Text in echo
+#: mainstream/footer.php:21
+msgid "Say something clever here. Or not. You decide."
+msgstr "Скажите что-то умное здесь. Или не говорите. Решайте сами."
+
+#. Text in echo
+#: mainstream/comments-legacy.php:87
+msgid "Says:"
+msgstr "Говорит:"
+
+#. Text in echo
+#: mainstream/search-form.php:3
+msgid "Search"
+msgstr "Поиск"
+
+#. Text in echo
+#: mainstream/header.php:7
+msgid "Search Results"
+msgstr "Результат поиска"
+
+#. Text in echo
+#: mainstream/search.php:5
+msgid "Search results for"
+msgstr "Результат поиска по"
+
+#. Text in echo
+#: mainstream/search-form.php:7
+#: mainstream/search-form.php:8
+msgid "Search..."
+msgstr "Поиск..."
+
+#. Text in function
+#: mainstream/includes/theme-widgets.php:84
+msgid "Show:"
+msgstr "Показать:"
+
+#. Text in echo
+#: mainstream/template-sitemap.php:13
+msgid "Sitemap"
+msgstr "Карта сайта"
+
+#. Text in echo
+#: mainstream/includes/theme-widgets.php:69
+msgid "Sponsors"
+msgstr "Спосоры"
+
+#. Text in echo
+#: mainstream/comments.php:95
+#: mainstream/comments-legacy.php:155
+msgid "Submit Comment"
+msgstr "Добавить комментарий"
+
+#. Text in echo
+#: mainstream/header.php:13
+msgid "Tag Archive"
+msgstr "Архив меток"
+
+#. Text in echo
+#: mainstream/template-archives.php:17
+msgid "The Last 30 Posts"
+msgstr "Последние 30 сообщений"
+
+#. Text in echo
+#: mainstream/page.php:27
+#: mainstream/single.php:39
+#: mainstream/404.php:11
+#: mainstream/index.php:75
+#: mainstream/search.php:50
+#: mainstream/template-fullwidth.php:33
+#: mainstream/archive.php:63
+msgid "The page you are looking for does not exist. Please check the URL for typing errors, or"
+msgstr "Страница, которую вы ищете, не существует. Проверьте правильность написания адреса, или"
+
+#. Text in echo
+#: mainstream/comments.php:7
+#: mainstream/comments-legacy.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Это сообщение защищено паролем. Введите пароль для просмотра комментариев."
+
+#. Text in function
+#: mainstream/includes/theme-widgets.php:84
+msgid "Title:"
+msgstr "Название:"
+
+#. Text in echo
+#: mainstream/comments-legacy.php:79
+msgid "Trackbacks For This Post"
+msgstr "Трэкбэкс для данного сообщения"
+
+#. Text in echo
+#: mainstream/comments.php:33
+msgid "Trackbacks/Pingbacks"
+msgstr "Трэкбэкс/Пингбэкс"
+
+#. Text in echo
+#: mainstream/comments.php:87
+#: mainstream/comments-legacy.php:147
+msgid "Website"
+msgstr "Вебсайт"
+
+#. Text in echo
+#: mainstream/footer.php:23
+msgid "WooThemes"
+msgstr "Woo-тема"
+
+#. Text in echo
+#: mainstream/footer.php:23
+msgid "WooThemes Logo"
+msgstr "Логотип Woo-темы"
+
+#. Text in echo
+#: mainstream/comments.php:68
+#: mainstream/comments-legacy.php:129
+msgid "You must be"
+msgstr "Вы должны"
+
+#. Text in echo
+#: mainstream/index.php:11
+msgid "You need to add content in the \"About You\" field on the Mainstream Options tab in the WP backend."
+msgstr "Вам необходимо добавить содержание в поле \"Обо мне\" на вкладке Параметры в Mainstream WP-бэкэнде."
+
+#. Text in function
+#: mainstream/includes/theme-comments.php:38
+#: mainstream/comments-legacy.php:57
+#: mainstream/comments-legacy.php:89
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает утверждения."
+
+#. Text in function
+#: mainstream/search.php:5
+msgid "\\'%s\\'"
+msgstr "\\'%s\\'"
+
+#. Text in echo
+#: mainstream/page.php:27
+#: mainstream/single.php:39
+#: mainstream/404.php:11
+#: mainstream/index.php:75
+#: mainstream/search.php:50
+#: mainstream/template-fullwidth.php:33
+#: mainstream/archive.php:63
+msgid "and start over"
+msgstr "и начать все сначала"
+
+#. Text in echo
+#: mainstream/comments-legacy.php:61
+msgid "at"
+msgstr "около"
+
+#. Text in echo
+#: mainstream/template-archives.php:23
+msgid "comments"
+msgstr "комментарий"
+
+#. Text in echo
+#: mainstream/page.php:27
+#: mainstream/single.php:39
+#: mainstream/404.php:11
+#: mainstream/index.php:75
+#: mainstream/search.php:50
+#: mainstream/template-fullwidth.php:33
+#: mainstream/archive.php:63
+msgid "head back home"
+msgstr "вернуться на главную"
+
+#. Text in echo
+#: mainstream/comments.php:68
+#: mainstream/comments-legacy.php:129
+msgid "logged in"
+msgstr "вы вошли в систему"
+
+#. Text in echo
+#: mainstream/comments.php:68
+#: mainstream/comments-legacy.php:129
+msgid "to post a comment."
+msgstr "чтобы оставить комментарий."
