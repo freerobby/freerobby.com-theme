@@ -40,10 +40,11 @@
 		<div id="logo">
 			<h1><?php bloginfo('title'); ?></h1>
 			<h2><?php bloginfo('description'); ?></h2>
-		
-			<a href="<?php bloginfo('home'); ?>" title="<?php bloginfo('title'); ?>">
-				<img src="<?php if ( get_option('woo_logo') <> "" ) { echo get_option('woo_logo'); } else { bloginfo('template_directory'); ?>/images/logo.png<?php } ?>" alt="<?php bloginfo('title'); ?> Logo" />
-			</a>
+		  <!--
+      <a href="<?php bloginfo('home'); ?>" title="<?php bloginfo('title'); ?>">
+       <img src="<?php if ( get_option('woo_logo') <> "" ) { echo get_option('woo_logo'); } else { bloginfo('template_directory'); ?>/images/logo.png<?php } ?>" alt="<?php bloginfo('title'); ?> Logo" />
+      </a>
+      -->
 		</div><!-- /#logo -->
 
         <div id="top-ad">
