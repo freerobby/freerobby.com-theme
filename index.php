@@ -39,9 +39,11 @@
 			
 					<h2 class="title"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
 					
+					<!--
 					<div class="categories">
 						<?php the_category(' '); ?>
-					</div><!-- /.categories -->
+					</div> -->
+					<!-- /.categories -->
 					
 					<div class="entry">
 						
