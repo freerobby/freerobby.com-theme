@@ -35,7 +35,7 @@
 						
 							<?php
 							if ( get_option('woo_content_archives') == "true" ) 
-								the_content('[...]'); 
+								the_content('Continue reading...'); 
 							else 
 								the_excerpt(); 
 							?>
