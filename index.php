@@ -51,7 +51,7 @@
 							if ( get_option('woo_content_home') == "true" ) 
 								the_content('Continue reading...'); 
 							else 
-								the_excerpt(); 
+								the_excerpt('Continue reading...');
 							?>
 						
 					</div><!-- /.entry -->
