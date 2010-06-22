@@ -50,8 +50,11 @@
 							<?php
 							if ( get_option('woo_content_home') == "true" ) 
 								the_content('Continue reading...'); 
-							else 
-								the_excerpt('Continue reading...');
+							else {
+							  the_excerpt();
+							  
+							  echo '<p><a href="'. get_permalink($post->ID) . '">' . 'Continue reading...' . '</a></p>';
+							}
 							?>
 						
 					</div><!-- /.entry -->
