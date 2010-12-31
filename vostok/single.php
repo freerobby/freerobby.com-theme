@@ -7,7 +7,6 @@
 				<span class="date"><?php the_time(__('l, F j, Y','vostok')) ?></span>
 				<div class="entry">
 					<?php the_content(__('Read the rest of this article','vostok').' &raquo;'); ?>
-					<?php wp_link_pages(array('before' => '<p><strong>'.__('Pages','vostok').':</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); the_author_meta('user_email'); ?>
 				</div>
 			</div>
 		<?php comments_template(); ?>
