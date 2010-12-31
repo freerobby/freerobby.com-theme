@@ -4,7 +4,7 @@
 			<?php if (have_posts()) : ?>
 			 <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
 	<?php /* If this is a category archive */ if (is_category()) { ?>
-			<p class="string"><?php _e('Archive of posts classified as','vostok'); ?> <strong><?php echo single_cat_title(); ?></strong></p>
+			<p class="string"><?php _e('My thoughts on','vostok'); ?> <strong><?php echo single_cat_title(); ?></strong></p>
 	 	  <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
 			<p class="string"><?php _e('Archive of published posts on','vostok'); ?> <?php the_time('F jS, Y'); ?></p>
 		 <?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
