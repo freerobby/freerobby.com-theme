@@ -4,7 +4,6 @@
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<div class="post" id="post-<?php the_ID(); ?>">
 				<h2><?php the_title(); ?></h2>
-				<span class="date"><?php the_time(__('l, F j, Y','vostok')) ?></span>
 				<div class="entry">
 					<?php the_content(__('See full page','vostok').' &raquo;'); ?>
 				</div>
