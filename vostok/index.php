@@ -21,7 +21,6 @@
 			</div>
 		<?php else : ?>
 			<p class="string"><?php _e('The page you are looking for doesn\'t exist. Sorry.','vostok'); ?></p>
-			<a href="<?php echo get_option('home'); ?>/" class="back"><?php _e('Back home','vostok'); ?></a>
 		<?php endif; ?>
 		</div><!-- close:main-content -->
 		<?php get_sidebar(); ?>
