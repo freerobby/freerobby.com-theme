@@ -27,7 +27,10 @@
 				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
 				<span class="date"><?php the_time('l, F j, Y') ?></span>
 				<div class="entry">
-					<?php the_content(__('Read the rest of this post','vostok').' &raquo;'); ?>
+					<?php
+				    the_excerpt();
+            echo '<p><a href="'. get_permalink($post->ID) . '">' . 'Continue reading...' . '</a></p>';
+				  ?>
 				</div>
 				<span class="number-of-comments"><a href="<?php the_permalink() ?>#comments" title="title"><?php comments_number(__('No Comments','vostok'), __('1 Comment','vostok'), __('% Comments','vostok'));?></a></span>
 			</div>
