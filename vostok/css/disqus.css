@@ -1,0 +1,49 @@
+/* Hide sort by, subscribe by email, subscribe by rss */
+.dsq-options {
+  display: none !important;
+}
+
+/* Hide "13 comments"-like notices */
+#dsq-comments-title {
+  display: none !important;
+}
+
+/* Hide "powered by disqus" */
+.dsq-brlink {
+  display: none !important;
+}
+
+/* Hide useless trackback textbox */
+.dsq-item-trackback {
+  display: none !important;
+}
+
+/* Hide "like" buttons on comments */
+.dsq-like {
+  display: none !important;
+}
+
+/* Hide user metadata */
+.dsq-request-user-info {
+  display: none !important;
+}
+
+/* Spacing beneath post button */
+#dsq-form-area {
+  margin-bottom: 8px !important;
+}
+
+/* Hide global like data */
+.dsq-global-toolbar-container {
+  display: none !important;
+}
+
+/* Hide tweet/facebook my comment icons */
+.dsq-sharing-options {
+  display: none !important;
+}
+
+/* Remove second "Add New Comment" imperative */
+#dsq-new-post h3 {
+  display: none !important;
+}
