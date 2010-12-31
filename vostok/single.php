@@ -6,7 +6,7 @@
 				<h2><?php the_title(); ?></h2>
 				<span class="date"><?php the_time(__('l, F j, Y','vostok')) ?></span>
 				<div class="entry">
-					<?php the_content(__('Read the rest of this posts','vostok').' &raquo;'); ?>
+					<?php the_content(__('Read the rest of this post','vostok').' &raquo;'); ?>
 				</div>
 			</div>
 		<?php comments_template(); ?>
