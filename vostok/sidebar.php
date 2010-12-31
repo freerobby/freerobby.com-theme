@@ -10,8 +10,10 @@
 			<li><a href="<?php bloginfo('rss2_url'); ?>"><?php _e('RSS Feed','vostok'); ?></a></li>
 		</ul>
 		<a href="mailto:<?php bloginfo('admin_email'); ?>" class="email">Email me</a>
+		<ul style="list-style-type: none;">
 		<?php
 		  wp_list_pages("title_li=&sort_column=menu_order");
 		?>
+		</ul>
 	</div><!-- close:sb-2 -->
 </div><!-- close:sidebar -->
