@@ -1,5 +1,6 @@
 <div id="sidebar" class="clearfix">
 	<div id="sb-1">
+	  <h3>Thoughts on...</h3>
 		<ul id="categories">
 			<?php wp_list_categories('show_count=1&title_li=&exclude=2'); ?>
 		</ul>
