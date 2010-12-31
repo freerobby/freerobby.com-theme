@@ -16,8 +16,8 @@
 				</div><!-- close:post -->
 			<?php endwhile; ?>
 			<div class="pagination clearfix">
-				<div class="prev"><?php next_posts_link('&laquo; '.__('Previous articles','vostok')) ?></div>
-				<div class="next"><?php previous_posts_link(__('More recent articles','vostok').' &raquo;') ?></div>
+				<div class="prev"><?php next_posts_link('&laquo; '.__('Older posts','vostok')) ?></div>
+				<div class="next"><?php previous_posts_link(__('More recent posts','vostok').' &raquo;') ?></div>
 			</div>
 		<?php else : ?>
 			<p class="string"><?php _e('The page you are looking for doesn\'t exist. Sorry.','vostok'); ?></p>

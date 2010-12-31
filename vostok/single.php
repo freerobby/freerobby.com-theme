@@ -6,12 +6,12 @@
 				<h2><?php the_title(); ?></h2>
 				<span class="date"><?php the_time(__('l, F j, Y','vostok')) ?></span>
 				<div class="entry">
-					<?php the_content(__('Read the rest of this article','vostok').' &raquo;'); ?>
+					<?php the_content(__('Read the rest of this posts','vostok').' &raquo;'); ?>
 				</div>
 			</div>
 		<?php comments_template(); ?>
 		<?php endwhile; else: ?>
-			<p class="string"><?php _e('Sorry, there are no articles under this criterion.','vostok'); ?></p>
+			<p class="string"><?php _e('Sorry, there are no posts under this criterion.','vostok'); ?></p>
 	<?php endif; ?>
 		</div><!-- close:main-content -->
 		<?php get_sidebar(); ?>
