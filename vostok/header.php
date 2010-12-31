@@ -21,7 +21,8 @@
 </head>
 <body>
 <div id="wrapper">
-  <!-- <div id="header">
+  <div id="header">
    <h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
-   <p class="description"><?php bloginfo('description'); ?></p>
-  </div> --><!-- close:header -->
+  </div>
+  
+  <!-- close:header -->
