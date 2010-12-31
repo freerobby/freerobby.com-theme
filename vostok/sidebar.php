@@ -7,7 +7,7 @@
 	<div id="sb-2">
 		<?php include (TEMPLATEPATH . '/searchform.php'); ?>
 		<ul id="rss">
-			<li><a href="<?php bloginfo('rss2_url'); ?>"><?php _e('RSS Feed of the articles','vostok'); ?></a></li>
+			<li><a href="<?php bloginfo('rss2_url'); ?>"><?php _e('RSS Feed','vostok'); ?></a></li>
 		</ul>
 		<a href="mailto:<?php bloginfo('admin_email'); ?>" class="email"><?php bloginfo('admin_email'); ?></a>
 	</div><!-- close:sb-2 -->
