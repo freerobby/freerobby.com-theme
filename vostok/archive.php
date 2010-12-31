@@ -25,7 +25,7 @@
 			<?php while (have_posts()) : the_post(); ?>
 			<div class="post"  id="post-<?php the_ID(); ?>">
 				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-				<span class="date"><?php the_time('j/m/Y') ?></span>
+				<span class="date"><?php the_time('l, F j, Y') ?></span>
 				<div class="entry">
 					<?php the_content(__('Read the rest of this article','vostok').' &raquo;'); ?>
 				</div>

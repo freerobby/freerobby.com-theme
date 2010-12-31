@@ -22,7 +22,7 @@
 				<?php if ($comment->comment_approved == '0') : ?>
 				<p class="moderation"><?php _e('Your comment will be published when it is approved.','vostok'); ?></p>
 				<?php endif; ?>
-				<cite><span class="date"><?php comment_date(__('j/m/Y','vostok')) ?></span><?php comment_author_link() ?> says:</cite>
+				<cite><span class="date"><?php comment_date(__('l, F j, Y','vostok')) ?></span><?php comment_author_link() ?> says:</cite>
 				<blockquote>
 					<?php comment_text(); ?>
 				</blockquote>

@@ -5,7 +5,7 @@
 			<?php while (have_posts()) : the_post(); ?>
 				<div class="post" id="post-<?php the_ID(); ?>">
 					<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-					<span class="date">by <?php the_author(); ?> on <?php the_time(__('j/m/Y','vostok')) ?></span>
+					<span class="date">by <?php the_author(); ?> on <?php the_time(__('l, F j, Y','vostok')) ?></span>
 					<div class="entry">
 						<?php the_content(__('Read the rest of this article','vostok').' &raquo;'); ?>
 					</div>
