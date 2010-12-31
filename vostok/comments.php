@@ -65,7 +65,7 @@
 				<textarea name="comment" id="comment" cols="100%" rows="10"></textarea>
 			</p>
 			<p class="input-submit">
-				<input name="submit-comment" type="submit" id="submit-comment" value="<?php _e('Send comment','vostok'); ?>" />
+				<input name="submit-comment" type="submit" id="submit-comment" value="<?php _e('Post comment','vostok'); ?>" />
 				<input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
 			</p>
 		<?php do_action('comment_form', $post->ID); ?>
