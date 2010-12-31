@@ -9,6 +9,6 @@
 		<ul id="rss">
 			<li><a href="<?php bloginfo('rss2_url'); ?>"><?php _e('RSS Feed','vostok'); ?></a></li>
 		</ul>
-		<a href="mailto:<?php bloginfo('admin_email'); ?>" class="email"><?php bloginfo('admin_email'); ?></a>
+		<a href="mailto:<?php bloginfo('admin_email'); ?>" class="email">Email me</a>
 	</div><!-- close:sb-2 -->
 </div><!-- close:sidebar -->
