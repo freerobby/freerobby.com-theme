@@ -5,22 +5,16 @@
 			 <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
 	<?php /* If this is a category archive */ if (is_category()) { ?>
 			<p class="string"><?php _e('Archive of posts classified as','vostok'); ?>' "<strong><?php echo single_cat_title(); ?></strong>"</p>
-			<a href="<?php echo get_option('home'); ?>/" class="back"><?php _e('Back home','vostok'); ?></a>
 	 	  <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
 			<p class="string"><?php _e('Archive of published posts on','vostok'); ?> <?php the_time('F jS, Y'); ?></p>
-			<a href="<?php echo get_option('home'); ?>/" class="back"><?php _e('Back home','vostok'); ?></a>
 		 <?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
 			<p class="string"><?php _e('Archive of published posts on','vostok'); ?> <strong><?php the_time('F, Y'); ?></strong></p>
-			<a href="<?php echo get_option('home'); ?>/" class="back"><?php _e('Back home','vostok'); ?></a>
 			<?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
 			<p class="string"><?php _e('Archive of published posts on','vostok'); ?> <strong><?php the_time('Y'); ?></strong></p>
-			<a href="<?php echo get_option('home'); ?>/" class="back"><?php _e('Back home','vostok'); ?></a>
 		  <?php /* If this is an author archive */ } elseif (is_author()) { ?>
 			<p class="string"><?php _e('Archive of published posts by ','vostok'); ?></p>
-			<a href="<?php echo get_option('home'); ?>/" class="back"><?php _e('Back home','vostok'); ?></a>
 			<?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
 			<p class="string"><?php _e('Blog Archives','vostok'); ?></p>
-			<a href="<?php echo get_option('home'); ?>/" class="back"><?php _e('Back home','vostok'); ?></a>
 			<?php } ?>
 			<?php while (have_posts()) : the_post(); ?>
 			<div class="post"  id="post-<?php the_ID(); ?>">
