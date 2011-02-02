@@ -106,17 +106,6 @@ strong {
 	border: 5px solid #FFF;
 }
 
-.post .number-of-comments a:link,
-.post .number-of-comments a:visited {
-	color: #CCC;
-}
-
-.post .number-of-comments a:hover,
-.post .number-of-comments a:active,
-.post .number-of-comments a:focus {
-	color: #F90;
-}
-
 #comments h3,
 #commentform h3 {
 	color: #CCC;

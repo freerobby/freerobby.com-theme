@@ -58,12 +58,6 @@
 	margin: 2em 0 1em 0;
 }
 
-.post .number-of-comments {
-	bottom: 1em;
-	position: absolute;
-	right: 1em;
-}
-
 .post blockquote {
 	margin: 2em;
 	padding: .1em 1.5em;

@@ -112,17 +112,6 @@ strong {
 	border: none;
 }
 
-.post .number-of-comments a:link,
-.post .number-of-comments a:visited {
-	color: #333;
-}
-
-.post .number-of-comments a:hover,
-.post .number-of-comments a:active,
-.post .number-of-comments a:focus {
-	color: #0087C1;
-}
-
 #comments h3,
 #commentform h3 {
 	color: #222;

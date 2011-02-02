@@ -15,7 +15,6 @@
 				  echo '<p><a href="'. get_permalink($post->ID) . '">' . 'Continue reading...' . '</a></p>';
 				?>
 			</div>
-			<span class="number-of-comments"><a href="<?php the_permalink() ?>#comments" title="title"><?php comments_number(__('No Comments','vostok'), __('1 Comment','vostok'), __('% Comments','vostok'));?></a></span>
 		</div>
 		<?php endwhile; ?>
 		<div class="pagination clearfix">
