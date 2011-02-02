@@ -9,7 +9,6 @@
 					<div class="entry">
 					  <?php
 					    the_excerpt();
-              echo '<p><a href="'. get_permalink($post->ID) . '">' . 'Continue reading...' . '</a></p>';
 					  ?>
 					</div>
 				</div><!-- close:post -->
