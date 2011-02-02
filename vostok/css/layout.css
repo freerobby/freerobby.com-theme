@@ -82,12 +82,10 @@
 
 .entry ul li {
 	background: url(../img/bullet.gif) 0 7px no-repeat;
-	margin: 1em 0;
 	padding: 0 0 0 15px;
 }
 
 .entry ol li {
-	margin: 1em 0;
 }
 
 .comment {
