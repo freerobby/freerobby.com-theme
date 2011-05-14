@@ -12,6 +12,41 @@
 	/* This variable is for alternating comment background */
 	$oddcomment = 'class="alt" ';
 ?>
+  <?php if ('open' == $post->comment_status) : ?>
+  	<div id="commentform">
+  		<h3>Now you go:</h3>
+  	<?php if ( get_option('comment_registration') && !$user_ID ) : ?>
+  		<p><?php _e('You have to','vostok'); ?> <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php the_permalink(); ?>"><?php _e('log in','vostok'); ?></a> <?php _e('to write a comment.','vostok'); ?></p>
+  	<?php else : ?>
+  		<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" name="comment-form">
+  		<?php if ( $user_ID ) : ?>
+  			<p><a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a> | <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?action=logout" title="<?php _e('Log out of this account','vostok') ?>"><?php _e('Logout','vostok') ?> &raquo;</a></p>
+  		<?php else : ?>
+  			<p>
+  				<input type="text" name="author" id="author" class="input-text" value="<?php echo $comment_author; ?>" size="22" />
+  				<label for="author">Name <?php if ($req) echo '(required)'; ?></label>
+  			</p>
+  			<p>
+  				<input type="text" name="email" id="email" class="input-text" value="<?php echo $comment_author_email; ?>" size="22" />
+  				<label for="email">Email <?php if ($req) echo '(required; not published)'; ?></label>
+  			</p>
+  			<p>
+  				<input type="text" name="url" id="url" class="input-text" value="<?php echo $comment_author_url; ?>" size="22" />
+  				<label for="url">Website</label>
+  			</p>
+  		<?php endif; ?>
+  			<p>
+  				<textarea name="comment" id="comment" cols="100%" rows="10"></textarea>
+  			</p>
+  			<p class="input-submit">
+  				<input name="submit-comment" type="submit" id="submit-comment" value="Publish Comment" />
+  				<input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
+  			</p>
+  		<?php do_action('comment_form', $post->ID); ?>
+  		</form>
+  	</div><!-- close:commentform -->
+  	<?php endif; // If registration required and not logged in ?>
+  	<?php endif; // if you delete this the sky will fall on your head ?>
 <!-- You can start editing here. -->
 <?php if ($comments) : ?>
 	<div id="comments">
@@ -31,38 +66,3 @@
 		</ol>
 	</div><!-- close:comments -->
 <?php endif; ?>
-<?php if ('open' == $post->comment_status) : ?>
-	<div id="commentform">
-		<h3>Now you go:</h3>
-	<?php if ( get_option('comment_registration') && !$user_ID ) : ?>
-		<p><?php _e('You have to','vostok'); ?> <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php the_permalink(); ?>"><?php _e('log in','vostok'); ?></a> <?php _e('to write a comment.','vostok'); ?></p>
-	<?php else : ?>
-		<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" name="comment-form">
-		<?php if ( $user_ID ) : ?>
-			<p><a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a> | <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?action=logout" title="<?php _e('Log out of this account','vostok') ?>"><?php _e('Logout','vostok') ?> &raquo;</a></p>
-		<?php else : ?>
-			<p>
-				<input type="text" name="author" id="author" class="input-text" value="<?php echo $comment_author; ?>" size="22" />
-				<label for="author">Name <?php if ($req) echo '(required)'; ?></label>
-			</p>
-			<p>
-				<input type="text" name="email" id="email" class="input-text" value="<?php echo $comment_author_email; ?>" size="22" />
-				<label for="email">Email <?php if ($req) echo '(required; not published)'; ?></label>
-			</p>
-			<p>
-				<input type="text" name="url" id="url" class="input-text" value="<?php echo $comment_author_url; ?>" size="22" />
-				<label for="url">Website</label>
-			</p>
-		<?php endif; ?>
-			<p>
-				<textarea name="comment" id="comment" cols="100%" rows="10"></textarea>
-			</p>
-			<p class="input-submit">
-				<input name="submit-comment" type="submit" id="submit-comment" value="Publish Comment" />
-				<input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
-			</p>
-		<?php do_action('comment_form', $post->ID); ?>
-		</form>
-	</div><!-- close:commentform -->
-	<?php endif; // If registration required and not logged in ?>
-	<?php endif; // if you delete this the sky will fall on your head ?>
