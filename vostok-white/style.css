@@ -112,6 +112,11 @@ strong {
 	border: none;
 }
 
+#comments {
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
 #comments h3,
 #commentform h3 {
 	color: #222;
@@ -142,7 +147,6 @@ strong {
 #commentform {
 	background: #fff;
 	border: 1px solid #ddd;
-
 }
 
 #commentform input#author, #commentform input#email, #commentform input#url, #commentform textarea {

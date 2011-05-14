@@ -78,6 +78,8 @@ a.back {
 
 #comments {
   font-size: 13px;
+  margin: 0 0 2.7em 0;
+  padding: 2.7em;
 }
 
 .date {
