@@ -33,7 +33,7 @@
 <?php endif; ?>
 <?php if ('open' == $post->comment_status) : ?>
 	<div id="commentform">
-		<h3><?php _e('Write a comment','vostok'); ?>:</h3>
+		<h3>Now you go:</h3>
 	<?php if ( get_option('comment_registration') && !$user_ID ) : ?>
 		<p><?php _e('You have to','vostok'); ?> <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php the_permalink(); ?>"><?php _e('log in','vostok'); ?></a> <?php _e('to write a comment.','vostok'); ?></p>
 	<?php else : ?>
@@ -43,22 +43,22 @@
 		<?php else : ?>
 			<p>
 				<input type="text" name="author" id="author" class="input-text" value="<?php echo $comment_author; ?>" size="22" />
-				<label for="author"><?php _e('Name','vostok'); ?> <?php if ($req) _e('(needed)','vostok'); ?></label>
+				<label for="author">Name <?php if ($req) echo '(required)'; ?></label>
 			</p>
 			<p>
 				<input type="text" name="email" id="email" class="input-text" value="<?php echo $comment_author_email; ?>" size="22" />
-				<label for="email"><?php _e('Email','vostok'); ?> <?php if ($req) _e('(needed but it will not be published)','vostok'); ?></label>
+				<label for="email">Email <?php if ($req) echo '(required; not published)'; ?></label>
 			</p>
 			<p>
 				<input type="text" name="url" id="url" class="input-text" value="<?php echo $comment_author_url; ?>" size="22" />
-				<label for="url"><?php _e('Website (if you have one)','vostok'); ?></label>
+				<label for="url">Website</label>
 			</p>
 		<?php endif; ?>
 			<p>
 				<textarea name="comment" id="comment" cols="100%" rows="10"></textarea>
 			</p>
 			<p class="input-submit">
-				<input name="submit-comment" type="submit" id="submit-comment" value="<?php _e('Post comment','vostok'); ?>" />
+				<input name="submit-comment" type="submit" id="submit-comment" value="Publish Comment" />
 				<input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
 			</p>
 		<?php do_action('comment_form', $post->ID); ?>
